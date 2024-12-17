@@ -27,7 +27,7 @@ Este proyecto busca explorar redes neuronales, aplicando Pytorch
 |  Librería/herramienta    |   Logo                                    | Descripción                                                                                                           |
 |----------------------|-----------------------------------------|----------------------------------------------|
 | **Pandas**   |      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" width="100">   | Librería de Python para manipulación y análisis de datos.|
-| **PyTorch** | <img src="https://pytorch.org/assets/images/pytorch-logo-dark.svg" width="100"> | Framework de aprendizaje profundo de código abierto que proporciona un apoyo flexible y potente para el desarrollo de modelos de aprendizaje automático. |
+| **PyTorch** | <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" width="100"> | Framework de aprendizaje profundo de código abierto que proporciona un apoyo flexible y potente para el desarrollo de modelos de aprendizaje automático. |
 | **Matplotlib**|<img src="https://matplotlib.org/_static/logo_light.svg" width="100">| Librería usada para la generación de gráficos en dos dimensiones.|
 |**Seaborn**|<img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" width="100"> | Librería de Python creada sobre matplotlib, usada para crear gráficos estadísticos.|
 | **Jupyter**|<img src="https://jupyter.org/assets/homepage/main-logo.svg" width="65">| Software gratuito, estándares abiertos y servicios web para informática interactiva en todos los lenguajes de programación.|
