@@ -6,7 +6,16 @@
 
 ## Descripción
 
-Este proyecto busca explorar redes neuronales, aplicando Pytorch
+### Predicción Multiclase
+
+Objetivo: Clasificar los puntos de datos en una de cuatro clases distintas mediante una red neuronal en PyTorch.
+
+Generación de datos: Conjunto de datos sintéticos creado mediante make_blobs, con 4 clústeres que representan diferentes clases en un espacio de características 2D.
+Arquitectura del modelo: Una red neuronal de propagación hacia adelante (BlobModel) con una capa de entrada de 2 características, dos capas ocultas con activación ReLU y una capa de salida para 4 clases.
+
+Proceso de entrenamiento: Utiliza pérdida de entropía cruzada para la clasificación de múltiples clases, el optimizador Adam para actualizaciones de parámetros y entrena durante 100 épocas.
+
+Resultados: Logra una alta precisión en este caso ideal (hasta el 100 % en datos de prueba) y visualiza los límites de decisión, lo que demuestra una distinción de clases efectiva en el conjunto de datos.
 
 ## Características
 
