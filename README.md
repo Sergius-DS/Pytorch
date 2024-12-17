@@ -4,18 +4,9 @@
 <p align="center">
 
 
-## Índice
-
-1. [Descripción](#descripción)
-2. [Características](#características)
-3. [Requisitos](#requisitos)
-4. [Estructura del Proyecto](#estructura-del-proyecto)
-5. [Colaboradores](#colaboradores)
-6. [Tecnologías](#tecnologías)
-
 ## Descripción
 
-Este proyecto busca utilizando la Ciencia de Datos, identificar características sean influyentes y puedan minorizar los gastos de hospitalizaciones en pacientes con Diabetes, de ser posible con los datos obtenidos ver si se puede obtener revelaciones de cómo optimizar el servicio existente.
+Este proyecto busca explorar redes neuronales, aplicando Pytorch
 
 ## Características
 
