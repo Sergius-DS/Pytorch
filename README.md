@@ -17,13 +17,18 @@ Proceso de entrenamiento: Utiliza pérdida de entropía cruzada para la clasific
 
 Resultados: Logra una alta precisión en este caso ideal (hasta el 100 % en datos de prueba) y visualiza los límites de decisión, lo que demuestra una distinción de clases efectiva en el conjunto de datos.
 
-## Características
+### Análisis de Tenis
 
-- Análisis Inicial del set de datos.
-- Visualización Análisis Exploratorio.
-- Preprocesamiento.
-- Ingeniería de Datos.
-- Predicciones y modelado de datos.
+
+Procesamiento de video: el script lee un archivo de video de un partido deportivo, detectando los movimientos del jugador y la pelota usando dos modelos CNN separados: un rastreador de jugadores que usa un modelo YOLOv8 y un rastreador de pelotas con un modelo entrenado diferente.
+
+Detección de tiros de pelota: identifica cuadros específicos donde se lanza la pelota, calcula las distancias recorridas por la pelota entre cuadros y convierte estas distancias de píxeles en medidas del mundo real en metros.
+
+Estadísticas de jugadores: el programa recopila y actualiza las estadísticas de dos jugadores, incluyendo la cantidad de tiros realizados, la velocidad total y del último tiro, y la velocidad del jugador contrario cuando se lanza la pelota.
+
+Visualización de datos: visualiza los jugadores detectados, las trayectorias de la pelota, las líneas de la cancha y las estadísticas de los jugadores en los cuadros de video, creando un video de salida anotado que muestra la dinámica del juego.
+
+Generación de salida: finalmente, el script guarda el video procesado, incorporando todas las visualizaciones y los números de cuadro para un mejor análisis y comprensión del desempeño de los jugadores durante el partido.
 
 | Video sin aplicar Deep Learning                                                                     | 
 | ----------------------------------------------------------------------------------------------- |
