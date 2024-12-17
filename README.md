@@ -3,10 +3,19 @@
   <img src="images/SD_analytics.png"  height="400">
 <p align="center">
 
+## Índice
+
+1. [Descripción](#Descripción-Proyectos)
+2. [Regresión Lineal con Red Neuronal](#Regresión-Lineal-con-Red-Neuronal)
+3. [Predicción Multiclase](#Predicción-Multiclase)
+4. [Análisis de Tenis](#Análisis-de-Tenis)
+5. [Demo Modelos en Acción](#Demo-Modelos-en-Acción)
+6. [Stack de tecnologías y herramientas](#Stack-de-tecnologías-y-herramientas)
+7. [Colaboradores](#Colaboradores)
 
 ## Descripción Proyectos
 
-### Regresión Lineal con Red Neuronal
+## Regresión Lineal con Red Neuronal
 
 Preparación de datos: se establece una relación lineal utilizando un peso de 0,8 y un sesgo de 0,4 para crear un conjunto de datos sintéticos, que luego se divide en conjuntos de entrenamiento (80 %) y de prueba (20 %).
 
@@ -18,7 +27,7 @@ Bucle de entrenamiento: el modelo se entrena durante 1000 épocas utilizando la 
 
 Evaluación y visualización: después del entrenamiento, el modelo se evalúa en modo de inferencia para predecir los datos de prueba y los resultados se visualizan utilizando la función plot_predictions, lo que permite la comparación entre las etiquetas de prueba reales y los valores predichos.
 
-### Predicción Multiclase
+## Predicción Multiclase
 
 Objetivo: Clasificar los puntos de datos en una de cuatro clases distintas mediante una red neuronal en PyTorch.
 
@@ -29,7 +38,7 @@ Proceso de entrenamiento: Utiliza pérdida de entropía cruzada para la clasific
 
 Resultados: Logra una alta precisión en este caso ideal (hasta el 100 % en datos de prueba) y visualiza los límites de decisión, lo que demuestra una distinción de clases efectiva en el conjunto de datos.
 
-### Análisis de Tenis
+## Análisis de Tenis
 
 
 Procesamiento de video: el script lee un archivo de video de un partido deportivo, detectando los movimientos del jugador y la pelota usando dos modelos CNN separados: un rastreador de jugadores que usa un modelo YOLOv8 y un rastreador de pelotas con un modelo entrenado diferente.
@@ -41,6 +50,8 @@ Estadísticas de jugadores: el programa recopila y actualiza las estadísticas d
 Visualización de datos: visualiza los jugadores detectados, las trayectorias de la pelota, las líneas de la cancha y las estadísticas de los jugadores en los cuadros de video, creando un video de salida anotado que muestra la dinámica del juego.
 
 Generación de salida: finalmente, el script guarda el video procesado, incorporando todas las visualizaciones y los números de cuadro para un mejor análisis y comprensión del desempeño de los jugadores durante el partido.
+
+## Demo Modelos en Acción
 
 | Video sin aplicar Deep Learning                                                                     | 
 | ----------------------------------------------------------------------------------------------- |
