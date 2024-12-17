@@ -1,4 +1,29 @@
+# <h1 align="center">_SD_ANALYTICS_</h1>
+<p align="center">
+  <img src="images/SD_analytics_2_4.JPG"  height="400">
+<p align="center">
 
+
+## Índice
+
+1. [Descripción](#descripción)
+2. [Características](#características)
+3. [Requisitos](#requisitos)
+4. [Estructura del Proyecto](#estructura-del-proyecto)
+5. [Colaboradores](#colaboradores)
+6. [Tecnologías](#tecnologías)
+
+## Descripción
+
+Este proyecto busca utilizando la Ciencia de Datos, identificar características sean influyentes y puedan minorizar los gastos de hospitalizaciones en pacientes con Diabetes, de ser posible con los datos obtenidos ver si se puede obtener revelaciones de cómo optimizar el servicio existente.
+
+## Características
+
+- Análisis Inicial del set de datos.
+- Visualización Análisis Exploratorio.
+- Preprocesamiento.
+- Ingeniería de Datos.
+- Predicciones y modelado de datos.
 
 
 ## Stack de tecnologías y herramientas
@@ -19,3 +44,5 @@
 | **Draw.io**|<img src="https://store-images.s-microsoft.com/image/apps.14142.2ec57164-ba5b-42ee-8253-ade72ca74c8d.e8efbcc8-e27f-4682-9321-eb111eb3bc68.950e1c22-0dd9-4079-807b-145ecdb6df9c.png" width="100">| Software de diagramas en línea gratuito para crear diagramas de flujo, diagramas de procesos, organigramas, UML, ER y diagramas de red.|
 | **Google Drive**|<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" width="100"> | Servicio de alojamiento y sincronización de archivos.|
 | **Streamlit** | <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="100"> | Streamlit es una herramienta de código abierto diseñada para crear aplicaciones web interactivas y visualizaciones de datos de manera rápida y sencilla utilizando Python.|
+
+
