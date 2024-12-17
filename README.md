@@ -16,7 +16,7 @@ Este proyecto busca explorar redes neuronales, aplicando Pytorch
 - Ingeniería de Datos.
 - Predicciones y modelado de datos.
 
-| Proyecto sin aplicar Deep Learning                                                                    | Con Deep Learning Aplicado                                                                       |
+| Video sin aplicar Deep Learning                                                                    | Con Deep Learning Aplicado                                                                       |
 | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | <img src="images/tennis_animation_3.gif" alt="Interface Animation"  width="100%" /> | <img src="images/tennis_animation_4.gif" alt="Back-End Animation"  width="100%"/> |
 
