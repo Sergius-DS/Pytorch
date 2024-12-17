@@ -6,6 +6,18 @@
 
 ## Descripción
 
+### Regresión Lineal con Red Neuronal
+
+Preparación de datos: se establece una relación lineal utilizando un peso de 0,8 y un sesgo de 0,4 para crear un conjunto de datos sintéticos, que luego se divide en conjuntos de entrenamiento (80 %) y de prueba (20 %).
+
+Visualización: se define una función plot_predictions para visualizar los datos de entrenamiento, los datos de prueba y cualquier predicción realizada por el modelo, inicialmente trazando los datos de entrenamiento y prueba sin predicciones.
+
+Definición del modelo: se define un modelo de red neuronal (model_1) utilizando nn.Sequential de PyTorch, que consta de dos capas completamente conectadas con 10 neuronas cada una y una capa de salida con 1 neurona.
+
+Bucle de entrenamiento: el modelo se entrena durante 1000 épocas utilizando la pérdida L1 y el optimizador Adam, imprimiendo la pérdida de entrenamiento y prueba cada 100 épocas para monitorear el progreso del entrenamiento.
+
+Evaluación y visualización: después del entrenamiento, el modelo se evalúa en modo de inferencia para predecir los datos de prueba y los resultados se visualizan utilizando la función plot_predictions, lo que permite la comparación entre las etiquetas de prueba reales y los valores predichos.
+
 ### Predicción Multiclase
 
 Objetivo: Clasificar los puntos de datos en una de cuatro clases distintas mediante una red neuronal en PyTorch.
