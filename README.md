@@ -18,9 +18,8 @@ Este proyecto busca explorar redes neuronales, aplicando Pytorch
 
 | Proyecto sin aplicar Deep Learning                                                                    | Con Deep Learning Aplicado                                                                       |
 | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| <img src="images/tennis_animation_1.gif" alt="Interface Animation"  width="100%" /> | <img src="images/tennis_animation_2.gif" alt="Back-End Animation"  width="100%"/> |
+| <img src="images/tennis_animation_3.gif" alt="Interface Animation"  width="100%" /> | <img src="images/tennis_animation_4.gif" alt="Back-End Animation"  width="100%"/> |
 
-<img src="images/tennis_animation_1.gif" alt="Interface Animation"  width="100%" />
 
 
 ## Stack de tecnologías y herramientas
